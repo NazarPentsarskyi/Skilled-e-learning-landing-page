@@ -201,7 +201,6 @@ body {
 .first-card {
   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
   border-radius: 15px;
-  
 }
 
 .first-card__title {
@@ -247,8 +246,7 @@ body {
 }
 
 .card__btn:active {
-  color: #FFA7C3;
-  
+  color: #FFA7C3; 
 }
 
 .footer {
