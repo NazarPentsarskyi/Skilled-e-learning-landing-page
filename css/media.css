@@ -1,3 +1,87 @@
+@media(max-width:1105px) {
+  .wrapper {
+    max-width: 1105px;
+  }
+
+  .info__left {
+    padding: 98px 0 186px 0;
+    max-width: 600px;
+  }
+
+  .courses__inner {
+    justify-content: space-evenly;
+  }
+}
+
+@media(max-width:1015px) {
+  .wrapper {
+    max-width: 1015px;
+  }
+
+  .info__left {
+    max-width: 480px;
+  }
+}
+
+@media(max-width:900px) {
+  .wrapper {
+    max-width: 900px;
+  }
+
+  .header__btn,
+  .footer__btn {
+    width: 150px;
+    height: 60px;
+  }
+
+  .info__left {
+    max-width: 500px;
+    padding: 85px 50px 0 0;
+  }
+  
+  .left__title {
+    width: 360px;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 25px;
+  }
+
+  .left__btn {
+    width: 150px;
+    height: 60px;
+  }
+
+  .right__inner {
+    width: 260px;
+  }
+  
+  .right__line {
+    height: 507px;
+    margin-bottom: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .right_girl {
+    width: 260px;
+    height: 382.53px;
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
+
+  .card-left {
+    width: 155px;
+    bottom: 140px;
+    left: -45px;
+  }
+
+  .card-right {
+    width: 105px;
+    right: -20px;
+    top: -14px;
+  }
+}
+
 @media(max-width:768px) {
   .body {
     font-size: 16px;
@@ -23,15 +107,16 @@
     width: 140px;
     height: 48px;
   }
-
+  
   .info__left {
     padding: 98px 0 186px 0;
   }
 
   .left__title {
+    width: 326px;
+    height: 101px;
     font-size: 40px;
     line-height: 50px;
-    margin-bottom: 25px;
   }
 
   .left__text {
@@ -39,6 +124,7 @@
     font-size: 16px;
     line-height: 26px;
     max-width: 398px;
+    margin-right: 33px;
     margin-bottom: 24px;
   }
 
@@ -54,14 +140,12 @@
   .right__line {
     height: 504,3px;
     background-position: bottom 0 left 0;
-    background-size: contain;
-    background-repeat: no-repeat;
+    margin-bottom: 4px;
   }
 
   .right_girl {
     width: 216.54px;
     height: 382.53px;
-    background-size:contain;
   }
 
   .right__cards {
@@ -89,8 +173,8 @@
 
   .card-right {
     width: 105px;
-    right: -14px;
-    top: 51px;
+    right: -51px;
+    top: -14px;
   }
 
   .courses {
@@ -133,6 +217,32 @@
   }
 }
 
+@media(max-width:700px) {
+  .wrapper {
+    max-width: 700px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .info {
+    height: 500px;
+  }
+
+  .info__left {
+    width: 320px;
+    margin-bottom: 0;
+  }
+
+  .left__title {
+    max-width: 320px;
+  }
+
+  .left__text {
+    padding-top: 30px;
+  }
+}
 
 @media(max-width:375px) {
   .wrapper {
@@ -146,6 +256,11 @@
   .header {
     height: 102px;
     padding: 16px 0 38px;
+  }
+
+  .info {
+    margin-bottom: 66px;
+    height: 664px;
   }
 
   .info__inner {
